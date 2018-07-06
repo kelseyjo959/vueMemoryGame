@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import { shuffle } from '../lib/shuffle'
 
-const cardNames = ['8-ball', 'kronos', 'baked-potato', 'dinosaur', 'rocket', 'skinny-unicorn', 'that-guy', 'zeppelin', 'dog', 'cat', 'dog2', 'pit', 'kit', 'wash', 'hit', 'pool', 'pup', 'fluff', 'derp', 'derp2'];
+const cardNames = ['pet1', 'pet2', 'pet3', 'pet4', 'pet5', 'pet6', 'pet7', 'pet8', 'pet9', 'pet10', 'pet11', 'pet12', 'pet13', 'pet14', 'pet15', 'pet16', 'pet17', 'pet18', 'pet19', 'pet20'];
 var timerId
 var statusHandler = {
     PLAYING: function({ commit }) {

@@ -1,26 +1,26 @@
 <template>
   <div class="container" v-on:click="flip">
     <div class="card" v-bind:class="{ flipped: option.flipped }">
-      <img class="front" v-if="option.cardName === '8-ball'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77550_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'baked-potato'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77518_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'dinosaur'" src="https://www.strayrescue.org/media/k2/items/cache/yang-c-1791-L.jpg"/>
-      <img class="front" v-if="option.cardName === 'kronos'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76901_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'rocket'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77522_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'skinny-unicorn'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77535_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'that-guy'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77471_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'zeppelin'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77551_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'dog'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77481_th_600.jpeg"/>
-      <img class="front" v-if="option.cardName === 'cat'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77552_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'dog2'" src="https://www.strayrescue.org/media/k2/items/cache/bonita-stt-1796-L.jpg"/>
-      <img class="front" v-if="option.cardName === 'pit'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77310_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'kit'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77472_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'wash'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77208_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'hit'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76627_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'pool'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77259_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'pup'" src="https://www.strayrescue.org/media/k2/items/cache/sandy-point-stx-1763-XL.jpg"/>
-      <img class="front" v-if="option.cardName === 'fluff'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77420_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'derp'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/67631_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'derp2'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77427_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet1'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77550_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet2'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77518_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet3'" src="https://www.strayrescue.org/media/k2/items/cache/yang-c-1791-L.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet4'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76901_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet5'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77522_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet6'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77535_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet7'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77471_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet8'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77551_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet9'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77481_th_600.jpeg"/>
+      <img class="front" v-if="option.cardName === 'pet10'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77552_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet11'" src="https://www.strayrescue.org/media/k2/items/cache/bonita-stt-1796-L.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet12'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77310_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet13'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77472_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet14'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77208_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet15'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76627_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet16'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77259_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet17'" src="https://www.strayrescue.org/media/k2/items/cache/sandy-point-stx-1763-XL.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet18'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77420_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet19'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/67631_th_600.jpg"/>
+      <img class="front" v-if="option.cardName === 'pet20'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77427_th_600.jpg"/>
 
       <img class="back" src="../../../img/ADOPT_ME.png"/>
     </div>
