@@ -13,7 +13,7 @@ import Chessboard from './card/Chessboard'
 import Status from './footer/PlayStatus'
 
 import { mapActions } from 'vuex'
-import { STATUS } from '../vuex/store/statusEnum'
+import { STATUS } from '../vuex/store.js'
 
 export default {
   // 通过mapActions将actions映射到methods里

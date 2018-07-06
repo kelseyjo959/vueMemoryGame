@@ -3,7 +3,7 @@
     <div class="card" v-bind:class="{ flipped: option.flipped }">
       <img class="front" v-if="option.cardName === '8-ball'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77550_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'baked-potato'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77518_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'dinosaur'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76638_th_600.jpeg"/>
+      <img class="front" v-if="option.cardName === 'dinosaur'" src="https://www.strayrescue.org/media/k2/items/cache/yang-c-1791-L.jpg"/>
       <img class="front" v-if="option.cardName === 'kronos'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/76901_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'rocket'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77522_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'skinny-unicorn'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77535_th_600.jpg"/>
@@ -11,7 +11,7 @@
       <img class="front" v-if="option.cardName === 'zeppelin'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77551_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'dog'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77481_th_600.jpeg"/>
       <img class="front" v-if="option.cardName === 'cat'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77552_th_600.jpg"/>
-      <img class="front" v-if="option.cardName === 'dog2'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77446_th_600.jpeg"/>
+      <img class="front" v-if="option.cardName === 'dog2'" src="https://www.strayrescue.org/media/k2/items/cache/bonita-stt-1796-L.jpg"/>
       <img class="front" v-if="option.cardName === 'pit'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77310_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'kit'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77472_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'wash'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77208_th_600.jpg"/>
