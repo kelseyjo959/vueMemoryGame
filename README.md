@@ -1,7 +1,6 @@
 vue-memory-game
 ==================
-![][david-url]
-![][license-url]
+
 
 A tiny game written in `vue2`. It's inspired by IgorMinar's [Memory-Game](https://github.com/IgorMinar/Memory-Game). You can view the online demo [here](http://leftstick.github.io/vue-memory-game).
 
@@ -36,8 +35,6 @@ vue-memory-game
 ├── css
 │   └── main.css
 ├── img
-│   ├── ...
-│   └── zeppelin.png
 ├── js
 │   ├── components
 │   │   ├── card
@@ -54,15 +51,7 @@ vue-memory-game
 │   │   └── Game.vue
 │   │
 │   ├── vuex
-│   │   ├── actions
-│   │   │   └── index.js
-│   │   ├── getters
-│   │   │   └── index.js
-│   │   ├── mutations
-│   │   │   └── index.js
-│   │   └── store
-│   │       ├── index.js
-│   │       └── statusEnum.js
+│   │   ├── store.js
 │   │
 │   └── index.js
 │
@@ -72,31 +61,27 @@ vue-memory-game
 └── webpack.config.prod.js
 ```
 
-## Detail Explanation? ##
-
-* [Chinese Edition](https://segmentfault.com/a/1190000005168085)
 
 
 ## Want Having a try locally? ##
 
-```bash
-#cloning code
-git clone https://github.com/leftstick/vue-memory-game.git
-cd vue-memory-game
-
 #install dependencies
+```
 npm install
-#start debug server
 npm start
 ```
 
 Now, view the demo at [http://localhost:8080](http://localhost:8080)
 
+## Future Plans ##
+Image urls are currently hardcoded. Want to pull in MongoDB data from Pawws. 
+Pull in first 20 pet names, pet image urls and pet profile urls
 
-## LICENSE ##
+Upon winning of the game, the View changes to include the pet names of the pets shown.
+Need to link the pets shown to their profile links so that users can get more info about the pets displayed rather than going back to the main Pawws homepage
 
-[MIT License](https://raw.githubusercontent.com/leftstick/vue-memory-game/master/LICENSE)
 
+Next steps: [Vue retrieve data from backend](https://github.com/20chix/retrieve_data_from_backend_VUE.JS/blob/master/src/components/Hello.vue)
 
-[david-url]: https://david-dm.org/leftstick/vue-memory-game.png
-[license-url]: https://img.shields.io/github/license/leftstick/vue-memory-game.svg
+Next steps: [Node serve data to Vue](https://github.com/20chix/simple_server_node/blob/master/app.js)
+

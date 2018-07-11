@@ -1,6 +1,7 @@
 <template>
   <div class="container" v-on:click="flip">
     <div class="card" v-bind:class="{ flipped: option.flipped }">
+      <!-- need Pet Object from Pawws App to provide most current urls  -->
       <img class="front" v-if="option.cardName === 'pet1'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77550_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'pet2'" src="http://nycaccpets.shelterbuddy.com//photos/lostfound/77518_th_600.jpg"/>
       <img class="front" v-if="option.cardName === 'pet3'" src="https://www.strayrescue.org/media/k2/items/cache/yang-c-1791-L.jpg"/>
